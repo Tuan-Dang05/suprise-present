@@ -1,0 +1,60 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>surprise present box</title>
+    <link rel="stylesheet" href="canvas.css" />
+    <link rel="stylesheet" href="present.css" />
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="jquery.js"></script>
+  </head>
+  <body>
+    <div class="parent">
+      <canvas id="canvas"></canvas>
+      <section class="above-fold">
+        <div class="wrap-present">
+          <div class="present-box" id="present">
+            <div class="present">
+              <div class="img-wrap" id="present-image"></div>
+            </div>
+            <div class="side front"></div>
+            <div class="side back"></div>
+            <div class="side left"></div>
+            <div class="side right"></div>
+            <div class="side top">
+              <span class="to">
+                <span class="name" id="nametag"> </span>
+              </span>
+            </div>
+            <div class="side bottom"></div>
+          </div>
+        </div>
+        <p class="info-text">Chạm vào để mở</p>
+      </section>
+
+      <div id="card">
+        <h4 class="title-card">💘Ib AnhTuan💘</h4>
+
+        <img
+          src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.15752-9/248361433_702276867412799_5520070126746960475_n.png?_nc_cat=103&ccb=1-5&_nc_sid=ae9488&_nc_ohc=3fMueLkUAcEAX9qvv9B&_nc_ht=scontent.fhan2-4.fna&oh=0c95bcc4afcee2f2d84329c1e4a0cd53&oe=61A94CC6"
+          class="honey"
+        />
+
+        <h4 class="content-card">
+          Viết lời chúc 💘
+        </h4>
+      </div>
+    </div>
+    <audio autoplay loop  id="playAudio">
+      <source src="nhacnen.mp3">
+    </audio>
+  </body>
+  <script src="config.js"></script>
+  <script src="canvas.js"></script>
+  <script src="present.js"></script>
+  <script>
+    
+  </script>
+</html>
