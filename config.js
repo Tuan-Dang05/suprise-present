@@ -1,5 +1,5 @@
 const nameGirl = 'Em';
-const giftUrl = 'http://nodemy.vn';
+const giftUrl = 'https://tuananh-05.github.io/my-profile/';
 const eventName = 'Chúc Mừng 20-10 muộn';
 const titleCard = 'Ib AnhTuandev';
 const contentCard = 'Quên lời chúc rồi :))';
